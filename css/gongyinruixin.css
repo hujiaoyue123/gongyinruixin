@@ -1,0 +1,301 @@
+﻿body{
+    background-color: #1e0a51;
+}
+.w{
+    width: 1000px;
+    margin: 0 auto;
+}
+.float1{
+    width:100%;
+    height: 51px;
+    background-color: white;
+}
+.float1 .get-back{
+    display: block;
+    width: 120px;
+    height: 20px;
+    position: absolute;
+    left: 280px;
+    top: 17px;
+}
+.float2 {
+    height: 590px;
+    text-align: center;
+}
+.float3{
+    height: 362px;
+    background-color: #dd1225;
+}
+.float4{
+    height: 110px;
+    text-align: center;
+}
+.float5{
+    height: 14px;
+    /*background-color: white;*/
+    background: url(../images/sanjiao.png);
+}
+.float6{
+    height: 702px;
+    background-color: white;
+    text-align: center;
+}
+.float7{
+    height: 114px;
+    text-align: center;
+}
+.float8{
+    height: 690px;
+    background-color: white;
+    text-align: center;
+}
+.float9{
+    height: 498px;
+    background-color: white;
+}
+.float9 .content{
+    width: 1000px;
+    height: 476px;
+}
+.float9 .content .content-left{
+    width: 500px;
+    height:476px;
+    float: left;
+    /*background-color: palevioletred;*/
+}
+.float9 .content .content-right{
+    width: 500px;
+    height:476px;
+    float: right;
+    background-color: gainsboro;
+}
+.float9 .content .content-left .jinrong,
+.float9 .content .content-right .jinrong
+{
+    width:500px;
+    height:74px;
+    font-size: 30px;
+    color: white;
+    line-height: 74px;
+    text-align: center;
+}
+.float9 .content .content-left .jinrong{
+    background-color: #ffd93c;
+}
+.content-right .dichan{
+    background-color: #fb7430;
+}
+.float9 .content .content-left .hulianwang1,
+.float9 .content .content-right .hulianwang1
+{
+    width: 480px;
+    height: 114px;
+    padding: 10px;
+}
+.float9 .content .content-left .hulianwang1 .hulianwang1-left,
+.float9 .content .content-right .hulianwang1 .hulianwang1-left
+{
+    width:100px;
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+}
+.float9 .content .content-left .hulianwang1 .hulianwang1-left img,
+.float9 .content .content-right .hulianwang1 .hulianwang1-left img
+{
+    width: 100%;
+    height: 100%;
+}
+.float9 .content .content-left .hulianwang1 .hulianwang1-right,
+.float9 .content .content-right .hulianwang1 .hulianwang1-right
+{
+    width: 370px;
+    height: 114px;
+    float:left;
+    /*background-color: yellow;*/
+}
+
+.float9 .content .content-right .hulianwang1 .hulianwang1-right p span a,
+.float9 .content .content-left .hulianwang1 .hulianwang1-right p span a{
+    text-decoration: none;
+    color: red;
+}
+.jinrong-content-bg2{
+    background-color: #feeac9;
+}
+.jinrong-content-bg13{
+    background-color: #fff4e1;
+}
+.dichan-content-bg2{
+    background-color: #fed8c9;
+}
+.dichan-content-bg13{
+    background-color: #ffe6d9;
+}
+.float10{
+    width: 100%;
+    height: 530px;
+    background-color: white;
+    text-align: center;
+}
+.float11{
+    width: 100%;
+    height: 590px;
+    background-color: #dd1225;
+    text-align: center;
+}
+.float12{
+    width: 100%;
+    height: 728px;
+    text-align: center;
+    background-color: white;
+}
+.float13{
+    width: 100%;
+    height: 126px;
+    background-color: #dd1225;
+    text-align: center;
+}
+.float14{
+    width: 100%;
+    height: 1022px;
+    text-align: center;
+    background-color: white;
+    padding-top: 18px ;
+}
+/*第15层开始*/
+.float15{
+    width: 100%;
+    height: 828px;
+    background-color: white;
+    padding-top: 31px;
+}
+/*box宽1000 margin29 ul宽314 高372 box上白31 下白45*/
+.float15-box{
+    width: 1000px;
+    height: 773px;
+    /*background-color: palegoldenrod;*/
+}
+.float15-box ul li{
+    width: 314px;
+    height: 372px;
+    float: left;
+    margin-bottom: 29px;
+
+    background-color:palevioletred;
+}
+.float15-box ul .li5{
+    margin-right: 29px;
+}
+.float15-box ul .li6{
+    margin-right: -20px;
+}
+.float15-box ul li:nth-child(2){
+    margin: 0 29px;
+}
+.float15-box ul li:nth-child(4){
+    margin-right: 29px;
+}
+.float15-box ul li .li-top{
+    width: 314px;
+    height: 98px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    line-height: 47px;
+}
+.float15-box ul li .li-top-bg{
+    background-color: #1E0A51;
+}
+.float15-box ul li .li-top-bg1{
+    background-color: #6c238f;
+}
+.float15-box ul li .li-middle{
+    width: 314px;
+    height: 204px;
+    background-color: #FEEAC9;
+}
+.float15-box ul li .li-middle .li-middle-1{
+    width: 314px;
+    height: 114px;
+    color: #DD1225;
+    font-size: 72px;
+    line-height: 114px;
+    text-align: center;
+    /*background-color: green;*/
+}
+.float15-box ul li .li-middle .li-middle-2{
+    width: 314px;
+    height: 29px;
+    /*background-color: gold;*/
+}
+.float15-box ul li .li-middle .li-middle-2 .li-middle-2-box{
+    width: 118px;
+    height: 29px;
+    background-color: #FFA200;
+    font-size: 18px;
+    color: white;
+    margin: 0 auto;
+    padding: 4px;
+}
+.float15-box ul li .li-middle .li-middle-3{
+    width: 314px;
+    height: 61px;
+    /*background-color: greenyellow;*/
+    font-size: 14px;
+    text-align: center;
+    line-height: 61px;
+    color: #666666;
+}
+.float15-box ul li .li-bottom
+{
+    width: 314px;
+    height: 70px;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+}
+.float15-box ul li .li-bottom a{
+    text-decoration: none;
+    color: white;
+}
+.float15-box ul li .li-bottom .li-bottom-left{
+    width: 157px;
+    height: 70px;
+    float: left;
+    background-color: #FFA200;
+}
+.float15-box ul li .li-bottom .li-bottom-right
+{
+    width: 157px;
+    height: 70px;
+    float: right;
+    background-color: #DD1225;
+}
+.float16{
+    width: 100%;
+    height: 148px;
+    background-color: #eaeaea;
+}
+.float16 .float16-tishi{
+    width: 148px;
+    height: 54px;
+    line-height: 54px;
+}
+.float16 .float16-tishi img{
+    width: 100%;
+    height: 100%;
+}
+.float16 .float16-tishi p{
+    width: 148px;
+    position: absolute;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+.float16 .float16-tishi p a{ 
+    text-decoration: none;
+    color: white;
+}
+
